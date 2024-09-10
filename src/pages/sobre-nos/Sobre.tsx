@@ -18,16 +18,9 @@ const Sobre = () => {
             <ButtonSuspense />
             <h1>Sobre nós</h1>
             <p>
-                A <span>Start Garage</span> está pronta para ajudar você a encontrar o veículo dos seus sonhos, seja qual for a marca, dentro das melhores condições de pagamento.
-
-                Intermediamos ainda serviços adicionais, como despachante, seguro do seu automóvel, financiamento com todas as maiores e melhores financeiras do Brasil, tudo para que você troque seu veículo com todo conforto, comodidade e segurança.
-
-                Atualmente somos referencia no mercado de automóveis, trazendo o conceito de concessionária para o mercado multimarcas.
+                Loja especializada na comercialização de automóveis de todas as marcas e modelos com o melhor estoque de toda zona norte da cidade de São Paulo, com destaque na comercialização de veículos 0 km
             </p>
             <div className="container-images-sobre-nos">
-                <img src="https://static.autoconf.com.br/site-car-center-912/build/imagem-1.webp" alt="" />
-                <img src="https://static.autoconf.com.br/site-car-center-912/build/imagem-2.webp" alt="" />
-                <img src="https://static.autoconf.com.br/site-car-center-912/build/imagem-3.webp" alt="" />
             </div>
             <h1 className="text-center">Atendimento</h1>
             <div className="informations-sobre-nos">
@@ -52,7 +45,7 @@ const Sobre = () => {
                     </h2>
                     <h3 className="phone-atendimento">
                         <FaPhone className="icon-phone-atendimento" />
-                        <span>(11) 3682-4544</span>
+                        <span>(11) 94731-6797</span>
                     </h3>
                 </div>
             </div>
