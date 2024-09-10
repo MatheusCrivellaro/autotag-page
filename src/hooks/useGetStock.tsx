@@ -4,7 +4,7 @@ import {useQuery} from "@tanstack/react-query";
 
 const API_URL = "https://matheuscrivellaro.online"
 
-const USUARIO = "integracaoapi";
+const USUARIO = "autotag";
 
 const fetchStock = async (): AxiosPromise<Vehicle[]> => {
     return axios.get(API_URL + '/estoque/' + USUARIO)
