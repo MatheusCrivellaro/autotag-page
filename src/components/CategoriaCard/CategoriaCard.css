@@ -15,6 +15,7 @@
 
 .categorias-card-inicio img {
     height: 70%;
+    max-width: 100%;
 }
 
 .title-card-categoria {
