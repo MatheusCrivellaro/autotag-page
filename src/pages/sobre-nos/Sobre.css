@@ -18,7 +18,7 @@
 .sobre-nos p {
     color: var(--text-color);
     font-weight: 400;
-    margin-bottom: 48px;
+    margin-bottom: 12px;
 }
 
 .sobre-nos p span{
@@ -145,5 +145,11 @@
         flex-direction: column;
         width: 100%;
     }
+}
+
+.list-valores-empresa span {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary-color);
 }
 

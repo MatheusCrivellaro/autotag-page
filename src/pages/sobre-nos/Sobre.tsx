@@ -15,11 +15,17 @@ const Sobre = () => {
 
     return (
         <div className="sobre-nos">
-            <ButtonSuspense />
+            <ButtonSuspense/>
             <h1>Sobre nós</h1>
             <p>
-                Loja especializada na comercialização de automóveis de todas as marcas e modelos com o melhor estoque de toda zona norte da cidade de São Paulo, com destaque na comercialização de veículos 0 km
+                Loja especializada na comercialização de automóveis de todas as marcas e modelos com o melhor estoque de
+                toda zona norte da cidade de São Paulo, com destaque na comercialização de veículos 0 km
             </p>
+            <ul className="list-valores-empresa">
+                <li><span>Missão:</span> Realizar sonhos através da comercialização de automóveis.</li>
+                <li><span>Visão:</span> Se tornar referência no segmento de venda de veículos, garantindo total satisfação a todos os clientes.</li>
+                <li><span>Valores:</span> Confiança, Respeito, Responsabilidade, Qualidade e Diversidade.</li>
+            </ul>
             <div className="container-images-sobre-nos">
             </div>
             <h1 className="text-center">Atendimento</h1>
@@ -27,9 +33,10 @@ const Sobre = () => {
                 <div className="informations-sobre-nos-logo">
                     <div className="informations-sobre-nos-logo-container">
                         <img src="/logo.png" alt=""
-                            className="img-atendimento-sobre-nos" />
+                             className="img-atendimento-sobre-nos"/>
                         <h2>
-                            Vendemos e compramos carros seminovos com transparência, segurança e o conforto que você merece.
+                            Vendemos e compramos carros seminovos com transparência, segurança e o conforto que você
+                            merece.
                         </h2>
                     </div>
                 </div>
@@ -38,14 +45,15 @@ const Sobre = () => {
                         Entre em contato pelo Whatsapp da Car Center Osasco Eireli
                     </h2>
                     <button className="wpp-button-atendimento">
-                        <a href="https://api.whatsapp.com/send/?phone=5511934524004&text&type=phone_number&app_absent=0"><FaWhatsapp className="icon-wpp-button-atendimento" />(11) 93452-4004</a>
+                        <a href="https://api.whatsapp.com/send/?phone=5511934524004&text&type=phone_number&app_absent=0"><FaWhatsapp
+                            className="icon-wpp-button-atendimento"/>(11) 94731-6797</a>
                     </button>
                     <h2>
                         Ou ligue agora para:
                     </h2>
                     <h3 className="phone-atendimento">
-                        <FaPhone className="icon-phone-atendimento" />
-                        <span>(11) 94731-6797</span>
+                        <FaPhone className="icon-phone-atendimento"/>
+                        <span>(11) 4883-2223</span>
                     </h3>
                 </div>
             </div>
