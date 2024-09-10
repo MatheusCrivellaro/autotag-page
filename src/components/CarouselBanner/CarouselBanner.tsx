@@ -15,27 +15,21 @@ const CarouselBanner = () => {
 
     const swiperRef = useRef<any>(null);
 
+    const banners = ["banner-auto-tag-01.jpg", "banner-auto-tag-02.jpg"]
+
     return (
         <Swiper
             {...settingsSwiper}
             onSwiper={(swiper) => (swiperRef.current = swiper)}
             id="carouselExample" className="carousel-banner"
         >
-            <SwiperSlide className="div-banners-carousel">
-                <img
-                    src="https://resized-images.autoconf.com.br/1440x338/filters:format(webp)/site/912/72a94062-ce7f-4d25-8dbf-a81ea86733bf.jpeg"
-                    alt=""/>
-            </SwiperSlide>
-            <SwiperSlide className="div-banners-carousel">
-                <img
-                    src="https://resized-images.autoconf.com.br/1440x338/filters:format(webp)/site/912/5d449fb9-40e3-4dff-949f-2ea47ef1a867.png"
-                    alt=""/>
-            </SwiperSlide>
-            <SwiperSlide className="div-banners-carousel">
-                <img
-                    src="https://resized-images.autoconf.com.br/1440x338/filters:format(webp)/site/912/be907c1b-c8d0-4d69-811a-cbf5fe8424b6.jpeg"
-                    alt=""/>
-            </SwiperSlide>
+            {banners.map(value =>
+                <SwiperSlide className="div-banners-carousel">
+                    <img
+                        src={"/" + value}
+                        alt=""/>
+                </SwiperSlide>
+            )}
             <div className="carousel-banner-button carousel-banner-button-prev">
                 <button onClick={() => swiperRef.current.slidePrev()}>
                     <MdArrowBackIosNew/>
