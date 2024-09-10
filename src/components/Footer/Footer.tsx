@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
                 <div className="informacoes-localizacao-container-div-inicio">
                     <div className="informacoes-localizacao-div-inicio">
-                        <h1>Car Center Osasco Eireli</h1>
+                        <h1>Auto Tag</h1>
                         <div className="informacao-localizacao-card-inicio">
                             <GrLocation className="icon-informacao-localizacao-card-inicio"/>
                             <h2>Av. Engenheiro Caetano Álvares
