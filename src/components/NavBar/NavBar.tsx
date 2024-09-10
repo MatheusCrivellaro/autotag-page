@@ -28,7 +28,7 @@ const NavBar = () => {
     return (
         <div className="nav-container">
             <div className="div-horarios-nav">
-                <span>Horário de atendimento</span>: Seg a Sex - 9h às 18h | Sáb - 9h às 16h
+                <span>Horário de atendimento</span>: Seg a Sex - 9h às 19h | Sáb - 9h às 16h
             </div>
             <div className={isSticky ? "suspense-nav" : ""}>
                 <nav>
@@ -69,7 +69,7 @@ const NavBar = () => {
                         <a href="https://api.whatsapp.com/send/?phone=5511934524004&text&type=phone_number&app_absent=0"
                             className="text-decoration-none">
                             <button className='whatsapp-button-nav button-nav'>
-                                <p className='text-whatsapp-button-nav text-button-nav'>(11) 3682-4544</p>
+                                <p className='text-whatsapp-button-nav text-button-nav'> (11) 94731-6797</p>
                                 <FaWhatsapp className="icon-wpp-nav" />
                             </button>
                         </a>
