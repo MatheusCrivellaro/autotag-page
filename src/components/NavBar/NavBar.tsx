@@ -147,7 +147,7 @@ const NavBar = () => {
                     </div>
 
                     <a href="https://api.whatsapp.com/send/?phone=5511934524004&text&type=phone_number&app_absent=0" className='whatsapp-button-nav-collapse'>
-                        <p>(11) 3682-4544</p>
+                        <p>11 9 4731 6797</p>
                         <FaWhatsapp className="icon-wpp-nav-collapse" />
                     </a>
                 </motion.div>
